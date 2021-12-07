@@ -1,13 +1,26 @@
-public class Main {
 
-    public static void main(String[] args) {
+public class TestaVariaveis {
 
-       for(int x = 0 ; x <20;  x++){
-
-           System.out.println("Testando Lacos " + x);
-        }
-
-
-
-    }
+	public static void main(String[] args) {
+		
+		System.out.println("ola");
+		
+		
+		double salario;
+		salario = 37.5;
+			
+		System.out.println(salario);
+		
+		salario = 30+10;
+		
+		System.out.println(salario);
+		
+		salario = 7 * 5 ;
+		
+		System.out.println(salario);
+		
+		System.out.println("a idade é " + salario);
+	}
+	
+	
 }
